@@ -21,14 +21,14 @@ Design Pattern|-
 Jetpack Components|-
 Dependency Injection|-
 Network|-
-Other|[Shape Drawable](https://developer.android.com/guide/topics/resources/drawable-resource#Shape)
+Other|[SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences?hl=ko)
 
 <br>
 
 ## :two: 핵심기능 설명
-- 0~5개까지 수동선택 가능하도록 구현하기
-- 수동선택한 번호를 제외한 나머지 번호는 랜덤으로 표시하기
+- 비밀번호를 저장하는 기능, 변경하는 기능 구현하기
+- 앱이 종료되더라도 다이어리 내용을 기기에 저장하는 기능 구현하기
 
 ```
-👉 로또번호를 자동으로 생성하는 어플입니다.
+👉 
 ```
