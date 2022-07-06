@@ -1,7 +1,8 @@
 # SecretDiary(비밀 다이어리)
 
 <table>
-  <td><img src="https://user-images.githubusercontent.com/106309830/176615496-da4d5ed1-a7e5-4b22-921f-f946249bcfcb.png" width="250" height="500"/></td>
+  <td><img src="https://user-images.githubusercontent.com/106309830/177501515-eeb05463-be31-49b4-89a1-d0c4752b89c4.png" width="250" height="500"/></td>
+  <td><img src="https://user-images.githubusercontent.com/106309830/177501523-c4bcbc44-1f16-42a4-aad2-9c95571ca5e4.png" width="250" height="500"/></td>
 </table>
 
 <br>
@@ -21,7 +22,7 @@ Design Pattern|-
 Jetpack Components|-
 Dependency Injection|-
 Network|-
-Other|[SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences?hl=ko)
+Other|[SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences?hl=ko), [Handler](https://developer.android.com/reference/android/os/Handler)
 
 <br>
 
@@ -30,5 +31,5 @@ Other|[SharedPreferences](https://developer.android.com/training/data-storage/sh
 - 앱이 종료되더라도 다이어리 내용을 기기에 저장하는 기능 구현하기
 
 ```
-👉 
+👉 간단한 자물쇠 방식으로 로그인하여 메모하는 어플입니다.
 ```
