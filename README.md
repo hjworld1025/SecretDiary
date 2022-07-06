@@ -22,7 +22,7 @@ Design Pattern|-
 Jetpack Components|-
 Dependency Injection|-
 Network|-
-Other|[SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences?hl=ko), [Handler](https://developer.android.com/reference/android/os/Handler)
+Other|[SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences?hl=ko), [Handler](https://developer.android.com/reference/android/os/Handler), [Runnable](https://developer.android.com/reference/java/lang/Runnable)
 
 <br>
 
