@@ -2,6 +2,7 @@ package org.hans.secretdiary
 
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.NumberPicker
@@ -58,9 +59,10 @@ class MainActivity : AppCompatActivity() {
             val passwordFromUser = "${numberPicker1.value}${numberPicker2.value}${numberPicker3.value}"
 
             if (passwordPreferences.getString("password", "000").equals(passwordFromUser)) {
-                // 비밀번호 성공시
+                // 비밀번호 입력이 성공했을 때
+                startActivity(Intent(this, DiaryActivity::class.java))
             } else {
-                // 비밀번호 실패시
+                // 비밀번호 입력이 실패했을 때
                 showErrorAlertDialog()
             }
         }
@@ -73,8 +75,8 @@ class MainActivity : AppCompatActivity() {
                 // 비밀번호 변경 후 저장할 때 기능
 
                 // edit의 저장방법
-                // 1. commit()방식 (commit 인자가 true) : 동기방식
-                // 2. apply()방식 (commit 인자가 false일 때) : 비동기방식
+                // 1. commit()방식 (commit 인자가 true) : 동기처리
+                // 2. apply()방식 (commit 인자가 false일 때) : 비동기처리
                 passwordPreferences.edit(true) {
                     putString("password", passwordFromUser)
                 }

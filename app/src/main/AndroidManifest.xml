@@ -14,9 +14,13 @@
         android:theme="@style/Theme.SecretDiary"
         tools:targetApi="31">
         <activity
+            android:name=".DiaryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SecretDiary.NoActionBar"/>
+        <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.SecretDiary.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.SecretDiary.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
